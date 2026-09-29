@@ -82,3 +82,24 @@ Description: ZFS-aware multi-panel duplicate-file deduplication tool for Linux
  snapshot before each destructive batch, re-validation before acting, and a
  restorable quarantine. The installed command is `dedcom`.
 
+Package: dedcom
+Architecture: arm64
+Version: 0.9.2
+Priority: optional
+Section: utils
+Maintainer: Denis "DeQuzzy" Kuznetsov <dedupcommando@dequzzy.io>
+Installed-Size: 6243
+Depends: libc6 (>= 2.39)
+Filename: pool/main/d/dedcom/dedcom_0.9.2_arm64.deb
+Size: 2240520
+MD5sum: 2d6af06d8c781f01b6dc9a71b1a9e3c2
+SHA1: 7b18df338bb89de3d3dea2948e36df71bc03c497
+SHA256: e543ae9a12caee2d601971514de55a2eb3a96e86e9a6b6b5e932cc8ca212f5aa
+SHA512: 19ae3cd29c9503871208811be73229fd19b6af1539796e6abf04c0370354ebe9dc02366b3e90d0297ad5b7e83cb5141127a2767ceb01870b50dc31c00800fc03
+Homepage: https://github.com/dedupcommando/DedupCommando
+Description: ZFS-aware multi-panel duplicate-file deduplication tool for Linux
+ DedupCommando is a Linux terminal UI for finding and safely deduplicating
+ byte-for-byte identical files on ZFS pools (tested on Proxmox VE): a ZFS
+ snapshot before each destructive batch, re-validation before acting, and a
+ restorable quarantine. The installed command is `dedcom`.
+
